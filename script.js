@@ -15,9 +15,9 @@ if(eta>65){
 
 let display = `
 --------------------------------
-Eta :              ${eta}
-Distanza in km:    ${distanza}
-Prezzo per viaggo: ${parseFloat(prezzo).toFixed(2)}
+Eta :              ${eta} anni
+Distanza :         ${distanza} km
+Prezzo per viaggo: ${parseFloat(prezzo).toFixed(2)} \u20AC
 --------------------------------`;
 
 console.log(display);
