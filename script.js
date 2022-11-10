@@ -12,3 +12,8 @@ if(eta>65){
     prezzo=costo;
 }
 }
+
+let display = `Eta : ${eta}
+Distanza in km: ${distanza}
+Prezzo per viaggo: ${prezzo}`;
+console.log(display);
