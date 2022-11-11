@@ -8,7 +8,7 @@ if(eta<18){
 }else{
 
 if(eta>65){
-    prezzo=costo * 0.6;
+    prezzo=costo*0.6;
 }else{
     prezzo=costo;
 }
