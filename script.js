@@ -14,16 +14,6 @@ if(eta>65){
 }
 }
 */
-/*
-let display = `
---------------------------------
-Eta :              ${eta} anni
-Distanza :         ${distanza} km
-Prezzo per viaggo: ${parseFloat(prezzo).toFixed(2)} \u20AC
---------------------------------`;
-
-console.log(display);
-*/
 let btn = document.getElementById("btncalc");
 
 btn.addEventListener('click',function(){
@@ -46,6 +36,14 @@ if(eta>65){
 let tarifa = parseFloat(prezzo).toFixed(2);
 
 document.getElementById("oprezzo").innerHTML = `Prezzo per viaggo:  `+ tarifa+`\u20AC`;
+let display = `
+--------------------------------
+Eta :              ${eta} anni
+Distanza :         ${distanza} km
+Prezzo per viaggo: ${parseFloat(prezzo).toFixed(2)} \u20AC
+--------------------------------`;
+
+console.log(display);
 
 });
 
