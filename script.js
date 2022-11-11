@@ -38,8 +38,8 @@ let tarifa = parseFloat(prezzo).toFixed(2);
 document.getElementById("oprezzo").innerHTML = `Prezzo per viaggo:  `+ tarifa+`\u20AC`;
 let display = `
 --------------------------------
-Eta :              ${eta} anni
 Distanza :         ${distanza} km
+Eta :              ${eta} anni
 Prezzo per viaggo: ${parseFloat(prezzo).toFixed(2)} \u20AC
 --------------------------------`;
 
